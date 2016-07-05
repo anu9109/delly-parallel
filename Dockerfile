@@ -1,4 +1,14 @@
-### Adapted from "https://github.com/tobiasrausch/delly/blob/master/docker/Dockerfile" and built to enable parallel processing ###
+#################################################################
+# Dockerfile
+#
+# Description:      Docker container with Delly version 0.7.3 built to enable parallel processing.
+# Website:          https://github.com/tobiasrausch/delly
+# Base Image:       ubuntu
+# Pull Cmd:         docker pull anu9109/delly-parallel
+# Run Cmd:          docker run -it anu9109/delly-parallel delly
+
+# Adapted from "https://github.com/tobiasrausch/delly/blob/master/docker/Dockerfile"
+#################################################################
 
 # use the ubuntu base image
 FROM ubuntu:14.04
